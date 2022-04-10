@@ -1,0 +1,53 @@
+.form_container{
+  display: flex;
+  justify-content: center;
+}
+
+.form_body{
+  border: 2px solid #fa0000;
+  color:red;
+  border-radius: 25px;
+  padding: 30px;
+  
+  position: absolute;
+   left: 50%;
+  top: 50%;
+ transform: translateX(-50%) translateY(-50%);
+}
+
+.form-label{
+  display: block;
+}
+
+.input_field{
+  border-radius: 10px;
+  padding-left: 8px;
+  display: block;
+  width: 100%;
+  border: inherit;
+background: rgba(255,255,255,0.4);
+}
+
+.list_body{
+  border: 1.5px solid black;
+  padding: 5px;
+}
+
+.list_body_dark{
+  border: 1.5px solid white;
+  padding: 5px;
+}
+
+.nav_body{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+body{
+background-image: url('https://wallpaperaccess.com/full/1472882.jpg');
+  background-repeat:no-repeat;
+  background-size:100%;
+}
+#one{
+  background-color: white;
+}
